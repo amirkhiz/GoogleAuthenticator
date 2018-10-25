@@ -1,6 +1,6 @@
 {
     "name": "phpgangsta/googleauthenticator",
-    "description": "Google Authenticator 2-factor authentication",
+    "description": "Google Authenticator 2-factor authentication from repo phpgangsta/googleauthenticator",
     "version": "1.0.0",
     "type": "library",
     "keywords": ["GoogleAuthenticator", "TOTP", "rfc6238"],
@@ -18,7 +18,9 @@
         "issues": "https://github.com/PHPGangsta/GoogleAuthenticator/issues"
     },
     "require": {
-        "php": ">=5.3"
+        "php": ">=5.3",
+        "ext-openssl": "*",
+        "ext-mcrypt": "*"
     },
 	"autoload": {
 		"classmap": ["PHPGangsta/GoogleAuthenticator.php"]
