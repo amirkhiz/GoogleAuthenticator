@@ -1,7 +1,6 @@
 {
     "name": "habil/googleauthenticator",
     "description": "Google Authenticator 2-factor authentication from repo phpgangsta/googleauthenticator",
-    "version": "1.0.0",
     "type": "library",
     "keywords": ["GoogleAuthenticator", "TOTP", "rfc6238"],
     "license": "BSD-4-Clause",
